@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A template of blog
+title: template
 ---
 
 <!DOCTYPE html>
