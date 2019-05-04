@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: MARKDOWN文件实时编辑预览
 ---
 
@@ -27,7 +27,7 @@ title: MARKDOWN文件实时编辑预览
 
 ##2.配置md文件预览刷新
 在md文件尾部添加刷新语句
-`<meta http-equiv="refresh" content="1">`
+  #`<meta http-equiv="refresh" content="1">`
 ##3.打开自动保存
 `Ctrl+Shift+P`打开包管理工具，输入auto，找到`Toggle AutoSave:Current File Only`并回车选中
 
