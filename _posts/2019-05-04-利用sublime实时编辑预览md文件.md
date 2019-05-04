@@ -15,24 +15,25 @@ title: MARKDOWN文件实时编辑预览
 * 进入上一级`Installed Packages`目录
     - 下载[Package Control.sublime-package](https://packagecontrol.io/Package%20Control.sublime-package)
     - 然后将其粘贴到`Installed Packages`目录
-* 最后重启SubimeText3.
+* 最后重启SubimeText3.  
 
 ##1.安装三个包
 `Ctrl+Shift+P`然后输入`pcip`进入包管理，输入下方三个包名称进行安装
 
 - Markdown Editing 
 - Markdown Preview
-- auto-save
-
-
+- auto-save   
+- 
 ##2.配置md文件预览刷新
 在md文件尾部添加刷新语句
-  #`<meta http-equiv="refresh" content="1">`
+  #`<meta http-equiv="refresh" content="1">`   
+
 ##3.打开自动保存
-`Ctrl+Shift+P`打开包管理工具，输入auto，找到`Toggle AutoSave:Current File Only`并回车选中
+`Ctrl+Shift+P`打开包管理工具，输入auto，找到`Toggle AutoSave:Current File Only`并回车选中  
 
 可以在Package Setting中配置Auto-Save的Settings-users参数：
 `"auto_save_delay_in_seconds": 0.15`   
+
 ##4.启用预览  
 `Ctrl+Shift+P`打开包管理工具，输入`MP`,选择`Markdown Preview:Preview in Browser`,即可在浏览器中实现修改预览同步。  
   
