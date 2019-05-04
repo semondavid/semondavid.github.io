@@ -1,3 +1,8 @@
+---
+layout: post
+title: helloworld
+---
+
 #MARKDOWN文件实时编辑预览
 ##0.packagecontrol
 进入包安装官网：[https://packagecontrol.io/installation]，提示最简单的方式是用Ctrl+`的快捷方式打开控制台，并且复制粘贴下面一段代码
