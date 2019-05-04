@@ -39,5 +39,3 @@ title: helloworld
 
 
 参考文档：[使用Sublime Text 3进行Markdown 编辑+实时预览](https://blog.csdn.net/github_32886825/article/details/52930195)
-
-<meta http-equiv="refresh" content="1">
