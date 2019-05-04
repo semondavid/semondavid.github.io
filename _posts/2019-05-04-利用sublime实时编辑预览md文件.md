@@ -2,7 +2,7 @@
 layout: default
 title: MARKDOWN文件实时编辑预览
 ---
-
+[TOC]
 #MARKDOWN文件实时编辑预览
 ##0.packagecontrol
 进入包安装官网：[https://packagecontrol.io/installation]，提示最简单的方式是用Ctrl+`的快捷方式打开控制台，并且复制粘贴下面一段代码
@@ -32,10 +32,8 @@ title: MARKDOWN文件实时编辑预览
 `Ctrl+Shift+P`打开包管理工具，输入auto，找到`Toggle AutoSave:Current File Only`并回车选中
 
 可以在Package Setting中配置Auto-Save的Settings-users参数：
-`"auto_save_delay_in_seconds": 0.15`
-
-
-
-
-
+`"auto_save_delay_in_seconds": 0.15`   
+##4.启用预览  
+`Ctrl+Shift+P`打开包管理工具，输入`MP`,选择`Markdown Preview:Preview in Browser`,即可在浏览器中实现修改预览同步。  
+  
 参考文档：[使用Sublime Text 3进行Markdown 编辑+实时预览](https://blog.csdn.net/github_32886825/article/details/52930195)
